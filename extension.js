@@ -5,7 +5,7 @@
     // Status reporting code
     // Use this to report missing hardware, plugin or unsupported browser
     ext._getStatus = function() {
-        return {status: 1, msg: 'Not ready'};
+        return {status: , msg: 'Not ready'};
     };
 
     // Block and block menu descriptions
@@ -16,5 +16,5 @@
     };
 
     // Register the extension
-    ScratchExtensions.register('Sample extension', descriptor, ext);
+    ScratchExtensions.register('Sample extensionK', descriptor, ext);
 })({});
